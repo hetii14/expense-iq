@@ -26,15 +26,7 @@ function Login() {
 
   return (
     <div className="auth-layout">
-      <section className="auth-showcase">
-        <span className="eyebrow pill">Secure sign in</span>
-        <h1>Return to your finance cockpit.</h1>
-        <p>
-          Review budgets, compare monthly movement, and search every expense from one premium dashboard.
-        </p>
-      </section>
-
-      <section className="auth-card">
+     <section className="auth-card">
         <div>
           <p className="eyebrow">Welcome back</p>
           <h2>Sign in</h2>
@@ -63,6 +55,15 @@ function Login() {
           No account yet? <Link to="/register">Create one</Link>
         </p>
       </section>
+      <section className="auth-showcase">
+        <span className="eyebrow pill">Secure sign in</span>
+        <h1>Return to your finance cockpit.</h1>
+        <p>
+          Review budgets, compare monthly movement, and search every expense from one premium dashboard.
+        </p>
+      </section>
+
+     
     </div>
   );
 }
